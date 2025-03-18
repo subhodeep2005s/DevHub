@@ -213,7 +213,17 @@ export default async function Home() {
             {featuredProjects.map((project) => (
               <FeaturedProjectCard key={project.id} project={project} />
             ))}
+            {/* /2nd */}
+            {featuredProjects.map((project) => (
+              <FeaturedProjectCard key={project.id} project={project} />
+            ))}
+            {/* 3rd */}
+            {featuredProjects.map((project) => (
+              <FeaturedProjectCard key={project.id} project={project} />
+            ))}
+           
           </div>
+        
 
           <div className="text-center mt-12">
             <Button variant="outline" asChild>
@@ -308,7 +318,7 @@ export default async function Home() {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-2xl blur-xl opacity-70"></div>
               <div className="relative bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://img.freepik.com/free-photo/three-dark-skinned-guy-chatting-laptop-sitting-sideways-desk-studio-black-background_613910-20785.jpg?t=st=1742289270~exp=1742292870~hmac=79b6bcca6c051d8122f7b8e93554323f7d5104b3c148f9e3c80457ba884215f3&w=1380"
                   alt="Developer Showcase"
                   width={800}
                   height={600}

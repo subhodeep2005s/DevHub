@@ -11,7 +11,7 @@ export function FeaturedProjectCard({ project }: { project: Project }) {
   return (
     <Card className="bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden flex flex-col h-full transition-all hover:shadow-md hover:shadow-primary/5 hover:border-primary/30">
       <div className="relative h-48 w-full">
-        <Image src={project.coverImage || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+        <Image src={`https://img.freepik.com/free-photo/ai-chip-artificial-intelligence-future-technology-innovation_53876-129780.jpg?t=st=1742289536~exp=1742293136~hmac=4d71e2cdd5eda869a409a15c56252751c9ac126bc36988640cb2db9f7c2bba79&w=900` || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
         <div className="absolute top-2 right-2">
           <Badge variant="secondary" className="bg-background/80 backdrop-blur-sm">
             {project.category}
